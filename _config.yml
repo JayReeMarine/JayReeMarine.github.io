@@ -33,7 +33,7 @@ linkedin_username: jaeyun-ree-75b17b26b
 additional_links:
 - title: Download Resume
   icon: fas fa-file-pdf
-  url: /assets/jayree_resume.pdf
+  url: https://jaeyunree.com/assets/jayree_resume.pdf
 
 # Google Analytics and Tag Manager
 # gtm: "GTM-0000000"
