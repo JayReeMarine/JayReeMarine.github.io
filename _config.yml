@@ -6,40 +6,36 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Jay Ree
+title: Software Engineering (Honours) Student at Monash University
+email: lee010518@gmail.com
+# website: # Not needed
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+# twitter_username:   # Not used
+github_username: JayReeMarine
+# stackoverflow_username:
+# dribbble_username:
+# facebook_username:
+# flickr_username:
+instagram_username: jaeyunree
+linkedin_username: jaeyun-ree-75b17b26b
+# xing_username:
+# pinterest_username:
+# youtube_username:   # Not used
+# googleplus_username:
+# orcid_username:
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
@@ -48,69 +44,144 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Final-year **Software Engineering (Honours)** student at [Monash University](https://www.monash.edu/) — graduating Nov 2026 — and a recipient of the **2023 & 2024 Monash Engineering Dean's Honours (Top 3%)**.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I recently co-founded [AIVA](https://tryaiva.app/) as CTO, building an AI-powered executive assistant platform, and am conducting research at Monash University under [Dr Eunus Ali](https://research.monash.edu/en/persons/eunus-ali). I also bring experience as a Full-Stack Developer Intern at [JobSearch.Works](https://www.linkedin.com/company/job-search-works/posts/?feedView=all) and as an IT Analyst at [Coles Group](https://www.linkedin.com/company/colesgroup/posts/?feedView=all).
+
+  I'm passionate about developing web applications that create real-world impact in industry settings. In my free time, I practise kendo, explore the outdoors, and build self-driven software projects.
+
+  I am most skilled in: <mark>Python</mark>, <mark>TypeScript</mark>, <mark>React</mark>, <mark>Angular</mark>, <mark>Firebase</mark>, and <mark>Node.js</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: AIVA
+        link: https://tryaiva.app/
+        link_text: tryaiva.app
+        sub_title: Chief Technology Officer (CTO)
+        caption: December 2025 — Present
+        quote: >
+          AI-Powered Personal Executive Assistant for Productivity & Time Management
+        description: |
+          - Led the end-to-end architecture and development of a full-stack AI assistant platform — building the backend in **Node.js** (Express) with **Supabase** (PostgreSQL) and the mobile client in **Flutter** (iOS) — integrating third-party services including Google Calendar, Notion, and Google Cloud voice APIs to deliver a unified productivity tool.
+          - Owned the AI feature pipeline, designing a conversational assistant using **Google Gemini** that autonomously manages calendar scheduling, task prioritisation, and personalised recommendations through long-term memory of user preferences.
+          - Directed technical strategy and sprint planning across frontend and backend teams, driving code reviews, API design decisions, and release cycles while coordinating cross-functional collaboration between developers and designers.
+
+      - layout: left
+        title: Monash University
+        link: https://supervisorconnect.it.monash.edu/projects/research/autonomous-vehicles-urban-transit-optimisation
+        link_text: Project Page
+        sub_title: Research Assistant
+        caption: November 2025 — Present
+        quote: >
+          Dynamic Platoon Formation of Multi-Type Autonomous Vehicles for Sustainable Urban Mobility
+        description: |
+          - Co-authored an [IEEE ITSC](https://ieee-itsc.org/2026/)-targeted research paper with [Dr. Mohammed Eunus Ali](https://research.monash.edu/en/persons/eunus-ali), introducing a novel system where smaller Passive Vehicles (PVs) are physically towed by larger Active Vehicles (AVs) on shared highway segments, formulating the platoon formation problem as a constrained optimisation model with multi-segment matching and point-wise capacity constraints.
+          - Designed and implemented two matching algorithms — a Greedy Maximum-Weight Matching baseline and an Iterative Linear Assignment (ILA) method using the Jonker–Volgenant solver — achieving 25–52% energy-proportional distance coverage across synthetic scenarios with up to 400 PVs and 80 AVs.
+          - Built an end-to-end experimental framework in **Python** (NumPy, SciPy, Pandas, Matplotlib) with parameter sweep experiments, automated data pipelines, and comparative visualisation tools for algorithm benchmarking.
+
+      - layout: left
+        title: JobSearch.Works
+        link: https://app.jobsearch.works/
+        link_text: app.jobsearch.works
+        sub_title: Full Stack Developer Intern
+        caption: May 2025 — November 2025
+        description: |
+          - Built core features for an AI-powered job application SaaS, including resume–job matching and automated application workflows using **React**, **TypeScript**, and **Firebase**.
+          - Improved deployment reliability by setting up CI/CD with **GitHub Actions** and **Husky**.
+          - Integrated RESTful APIs and optimised database queries for better scalability.
+
+      - layout: left
+        title: Coles Group
+        link: https://www.linkedin.com/company/colesgroup/posts/?feedView=all
+        link_text: Coles Group
+        sub_title: IT Analyst — Hardware Coordination Intern
+        caption: July 2024 — December 2024
+        description: |
+          - Coordinated hardware lifecycle management across multiple Coles Divisions, ensuring smooth deployments, upgrades, and resolution of hardware-software integration issues across functional teams.
+          - Automated manual reporting processes using **VBA** (Microsoft Macro), reducing processing time from 4 hours to 30 minutes, streamlining asset tracking and improving data accuracy across the team.
+          - Optimised vendor management and asset processes, securing cost-saving agreements and contributing to over **$90,000** in operational savings through lifecycle planning.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Monash University
+        caption: July 2020 — Present (Expected Graduation 2026)
+        sub_title: Bachelor of Engineering (Honours) in Software Engineering
+        description: |
+          - **GPA: 3.769 / 4.000** (High Distinction)
+          - 2023 & 2024 Monash Engineering Dean's Honours recipient (**Top 3%** of engineering students)
+          - Working proficiency in **Python**, **Java**, **TypeScript/JavaScript**, **Tailwind CSS**, **MongoDB**, **SQL**, and **PHP** for software development; strong understanding of algorithms, data structures, and databases.
+          - Experienced with **Linux**, **Angular**, **React**, **Meteor**, **Firebase**, and **Git**. Industry experience developing Microsoft Excel **Macros** for system automation and debugging hardware using measurement tools.
+
+      - layout: left
+        title: Monash College
+        caption: July 2019 — June 2020
+        sub_title: Foundation Year
+        description: |
+          - Graduated with **GPA of 4.0 / 4.0** (High Distinction)
+          - Recipient: **Engineering International Undergraduate Excellence Scholarship** (awarded for ATAR equivalent >96 and exceptional academic performance)
+
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: AIVA — AI Executive Assistant
+        link: https://tryaiva.app/
+        link_text: tryaiva.app
+        description: |
+          Co-founded and built a full-stack AI-powered executive assistant platform. Backend in **Node.js** (Express) with **Supabase** (PostgreSQL), mobile client in **Flutter** (iOS), integrating Google Calendar, Notion, and Google Cloud voice APIs.
+
+      - layout: top-middle
+        title: PressUp — Café Management System
+        link: https://github.com/Monash-FIT3170/2025W2-PressUp
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: GitHub Repo
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+            url: https://github.com/Monash-FIT3170/2025W2-PressUp
+        description: |
+          Developed an all-in-one café management software to support small business owners in efficiently managing operations. Year-long industry project involving continuous development based on stakeholder requirements. Built with **TypeScript**, **Tailwind CSS**, **MongoDB**, **Meteor**, and **Docker**.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+      - layout: top-middle
+        title: Santorini Board Game
+        link: https://github.com/JayReeMarine/Santorini-Game
+        additional_links:
+          - title: GitHub Repo
+            icon: fab fa-github
+            url: https://github.com/JayReeMarine/Santorini-Game
+        description: |
+          Developed a fully functional Santorini board game application using **Java Swing**, with a strong focus on object-oriented principles, architecture, and clean code structure. Implemented full game rules, UI/UX, and features supporting SOLID design principles.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+      - layout: top-middle
+        title: Redesign Local Business Website (Glory Auto)
+        link: https://www.gloryauto.com.au/
+        additional_links:
+          - title: GitHub Repo
+            icon: fab fa-github
+            url: https://github.com/JayReeMarine/Mechanic-Workshop-Page
+        description: |
+          Redesigned and deployed the business website for a local mechanic workshop in Oakleigh, Victoria, improving functionality and usability using **HTML**, **CSS**, **JavaScript**, and **EmailJS** for reservation handling. Reduced annual costs by up to **$10k** and increased website traffic and reservation requests by over **50%**.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title: Awards & Certifications
+    layout: text
+    content: |
+      - **2024 Monash Engineering Dean's Honours** (Top 3% of cohort) — Jun 2025
+      - **2023 Monash Engineering Dean's Honours** (Top 3% of cohort) — May 2024
+      - **Industry-Based Learning Placement Scholarship** — Jul 2024
+      - **Academic Commendation**: Highest Grade in [FIT2081: Mobile Application Development](https://handbook.monash.edu/2024/units/FIT2081) — May 2024
+      - **Engineering International Undergraduate Excellence Scholarship** — Jun 2020
+      - **[AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/)** — Mar 2025
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/images/landscape-trees.jpg "Trees")
+    content: |
+      Beyond software engineering, some of my interests and hobbies include:
+      - Kendo (Japanese swordsmanship)
+      - Exploring the outdoors
+      - Building self-driven software projects
 
 # Footer
 footer_show_references: true
