@@ -30,10 +30,10 @@ linkedin_username: jaeyun-ree-75b17b26b
 # orcid_username:
 
 # Additional icon links
-# additional_links:
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+additional_links:
+- title: Download Resume
+  icon: fas fa-file-pdf
+  url: /assets/jayree_resume.pdf
 
 # Google Analytics and Tag Manager
 # gtm: "GTM-0000000"
